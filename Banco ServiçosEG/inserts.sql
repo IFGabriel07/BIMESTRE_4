@@ -13,15 +13,15 @@ values
 
 
 
-insert into servidor(cpf,email,senha,nome,Horario_Disponivel_entrada,Horario_Disponivel_saida,endereco,valor, numero) 
+insert into servidor(cpf,email,senha,nome,Horario_Disponivel_entrada,Horario_Disponivel_saida,endereco,valor, numero, avaliacao) 
 values
-("313.114.316-90", "David@gmail.com","david1989","David Henrique de Souza Lima","6:00","19:00","Alagoas, Maceió", 200.00,"82 99533-4575"),
-("333.224.367-70", "eli@gmail.com","elimesmo666","Elijamerson Lurenço dos Santos","7:00","18:00", "Alagoas, Maceió,", 150.00,"82 99533-2581"),
-("353.114.877-21","sandro@gmail.com","sandinho157","Sandro Vagner de Oliveira ","6:00","16:00", "Alagoas, Maceió", 100.00,"82 99533-9513"),
-("309.198.752-01","Giva12@gmail.com","pikachu622","Givanildo Lourenço de farias","12:00","19:00", "Alagoas, Maceió", 220.00,"82 99533-3572"),
-("312.876.122-05","mg12@gmail.com","Moura412","Miguel Andrade Moura","9:00", "17:00","Alagoas, Maceió,", 165.50,"82 99533-7524"),
-("312.574.666-02","iranmatador@gmail.com","Matacassaco123","Iran Santana Batista Filho","13:00", "18:00","Alagoas, Maceió", 160.00,"82 99533-5534"),
-("762.274.626-20","Teteuzinho712@gmail.com","caspa431","Matheus dos Santos Luna","11:00", "16:00","Alagoas, Maceió", 169.00,"82 92923-5490");
+("313.114.316-90", "David@gmail.com","david1989","David Henrique de Souza Lima","6:00","19:00","Alagoas, Maceió", 200.00,"82 99533-4575", "5,0"),
+("333.224.367-70", "eli@gmail.com","elimesmo666","Elijamerson Lurenço dos Santos","7:00","18:00", "Alagoas, Maceió,", 150.00,"82 99533-2581", "5,0"),
+("353.114.877-21","sandro@gmail.com","sandinho157","Sandro Vagner de Oliveira ","6:00","16:00", "Alagoas, Maceió", 100.00,"82 99533-9513", "0,0"),
+("309.198.752-01","Giva12@gmail.com","pikachu622","Givanildo Lourenço de farias","12:00","19:00", "Alagoas, Maceió", 220.00,"82 99533-3572", "0,0"),
+("312.876.122-05","mg12@gmail.com","Moura412","Miguel Andrade Moura","9:00", "17:00","Alagoas, Maceió,", 165.50,"82 99533-7524", "0,0"),
+("312.574.666-02","iranmatador@gmail.com","Matacassaco123","Iran Santana Batista Filho","13:00", "18:00","Alagoas, Maceió", 160.00,"82 99533-5534", "0,0"),
+("762.274.626-20","Teteuzinho712@gmail.com","caspa431","Matheus dos Santos Luna","11:00", "16:00","Alagoas, Maceió", 169.00,"82 92923-5490", "0,0");
 
 insert into profissao(nome,cod) values
 ("informática", 1),
